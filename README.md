@@ -14,22 +14,22 @@ Easily calculate fluid font sizes between any two viewport ranges — with live 
 
 ### ✨ Features
 
-✅ Instantly generate accurate CSS `clamp()` expressions
-✅ Adjust **min/max font size** and **viewport range**
-✅ Toggle between **px / rem** units
-✅ Define a custom **Base Value** (root font size) that works for *both* px and rem modes
-✅ Live **preview** that visually scales as you type
-✅ One-click **copy to clipboard**
-✅ Beautiful teal gradient UI — responsive and mobile-friendly
+✅ Instantly generate accurate CSS `clamp()` expressions  
+✅ Adjust **min/max font size** and **viewport range**  
+✅ Toggle between **px / rem** units  
+✅ Define a custom **Base Value** (root font size) that works for *both* px and rem modes  
+✅ Live **preview** that visually scales as you type  
+✅ One-click **copy to clipboard**  
+✅ Beautiful teal gradient UI — responsive and mobile-friendly  
+
 
 ---
 
 ### 🖼️ Preview
 
-*(Add your screenshot here)*
 
 ```
-📸 Screenshot: clamp-function-generator-preview.png
+📸 Screenshot: ![alt text](image.png)
 ```
 
 ---
@@ -101,19 +101,6 @@ Both `px` and `rem` outputs represent the *same scaling behavior*, ensuring visu
 
 1. **Clone the repository**
 
-   ```bash
-   git clone https://github.com/yourusername/clamp-function-generator.git
-   ```
-
-2. **Open the project folder**
-
-   ```bash
-   cd clamp-function-generator
-   ```
-
-3. **Launch locally**
-   Just open `index.html` in your browser — no build process required.
-
 ---
 
 ### 🧰 Tech Stack
@@ -127,7 +114,7 @@ Both `px` and `rem` outputs represent the *same scaling behavior*, ensuring visu
 
 ### ❤️ Credits
 
-Created and designed by **[Safeer Kilinadan](https://github.com/yourusername)**
+Created and designed by **[Safeer Kilinadan](https://github.com/safeerkilinadan)**
 Made with 💙 for frontend developers who love clean, responsive typography.
 
 ---
