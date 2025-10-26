@@ -28,7 +28,6 @@ Easily calculate fluid font sizes between any two viewport ranges — with live 
 ### 🖼️ Preview
 
 
-```
 Here’s how the Clamp Function Generator looks:
 
 📸 ![Clamp Function Generator UI](./screenshots/ui-preview.png)
@@ -38,10 +37,10 @@ Here’s how the Clamp Function Generator looks:
 ### 📂 Project Structure
 
 ```
-clamp-function-generator/
+clamp-function-generator/  
 │
-├── index.html        # Main HTML interface
-├── style.css         # Styling for layout and theme
+├── index.html        # Main HTML interface  
+├── style.css         # Styling for layout and theme  
 └── script.js         # Core logic for clamp calculation and UI interactivity
 ```
 
