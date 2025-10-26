@@ -1,0 +1,194 @@
+:root {
+  --bg-color: #0f444f;
+  --accent: #2ed0d0;
+  --accent2: #0ba7a1;
+  --text-light: #f0f0f0;
+  --shadow: rgba(0, 0, 0, 0.25);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", system-ui, sans-serif;
+  background: linear-gradient(135deg, var(--bg-color), #15606b);
+  color: var(--text-light);
+  margin: 0;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+header p {
+  opacity: 0.85;
+  font-size: 1rem;
+}
+
+.container {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 12px;
+  box-shadow: 0 6px 20px var(--shadow);
+  padding: 2rem;
+  max-width: 720px;
+  width: 100%;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+label {
+  font-weight: 600;
+  margin-bottom: 0.3rem;
+  display: block;
+}
+
+input {
+  width: 100%;
+  padding: 0.6rem;
+  font-size: 1rem;
+  border-radius: 6px;
+  border: none;
+  background: rgba(255, 255, 255, 0.15);
+  color: #fff;
+  transition: 0.2s ease;
+}
+
+input:focus {
+  outline: 2px solid var(--accent);
+  background: rgba(255, 255, 255, 0.25);
+}
+
+.unit-toggle {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  margin-top: 1.5rem;
+  font-weight: 600;
+}
+
+/* Toggle Switch */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  height: 24px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  inset: 0;
+  background-color: #ccc;
+  border-radius: 24px;
+  transition: 0.3s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 18px;
+  width: 18px;
+  left: 3px;
+  bottom: 3px;
+  background-color: white;
+  border-radius: 50%;
+  transition: 0.3s;
+}
+
+input:checked + .slider {
+  background-color: var(--accent2);
+}
+
+input:checked + .slider:before {
+  transform: translateX(26px);
+}
+
+/* Output Box */
+.output-box {
+  margin-top: 2rem;
+  background: rgba(0, 0, 0, 0.3);
+  padding: 1rem;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: monospace;
+  font-size: 1rem;
+}
+
+.output-box code {
+  word-break: break-all;
+}
+
+button#copyBtn {
+  background: linear-gradient(135deg, var(--accent2), var(--accent));
+  color: #000;
+  font-weight: 600;
+  border: none;
+  border-radius: 6px;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+button#copyBtn:hover {
+  transform: scale(1.05);
+}
+
+.example {
+  text-align: center;
+  margin-top: 2.5rem;
+}
+
+.example p {
+  margin-top: 1rem;
+  font-size: clamp(3.1rem, 2.171rem + 1.548vw, 4.4rem);
+  color: #fff;
+  transition: font-size 0.2s ease-in-out;
+}
+
+footer {
+  margin-top: 2rem;
+  opacity: 0.7;
+  font-size: 0.9rem;
+}
+
+.extra-controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1.5rem;
+  gap: 1rem;
+}
+
+.base-input {
+  display: flex;
+  flex-direction: column;
+}
+
+.base-input input {
+  width: 100px;
+  text-align: center;
+}
+

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Clamp Function Generator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Clamp Function Generator</h1>
+    <p>Create perfect <code>clamp()</code> values for responsive CSS typography</p>
+  </header>
+
+  <main class="container">
+    <div class="controls">
+      <div class="grid">
+        <div>
+          <label for="min">Min Size</label>
+          <input type="number" id="min" value="31">
+        </div>
+        <div>
+          <label for="max">Max Size</label>
+          <input type="number" id="max" value="44">
+        </div>
+        <div>
+          <label for="minVW">Min Viewport</label>
+          <input type="number" id="minVW" value="600">
+        </div>
+        <div>
+          <label for="maxVW">Max Viewport</label>
+          <input type="number" id="maxVW" value="1440">
+        </div>
+      </div>
+
+      <div class="extra-controls">
+        <div class="unit-toggle">
+          <span>Unit:</span>
+          <label class="switch">
+            <input type="checkbox" id="unitToggle">
+            <span class="slider"></span>
+          </label>
+          <span id="unitLabel">px → rem</span>
+        </div>
+
+        <div class="base-input">
+            <label for="baseValue">Base Value (root font size)</label>
+            <input type="number" id="baseValue" value="10" min="1" step="0.5">
+        </div>
+
+      </div>
+    </div>
+
+    <div class="output-box">
+      <code id="clampOutput">clamp(3.1rem, 2.171rem + 1.548vw, 4.4rem)</code>
+      <button id="copyBtn">Copy</button>
+    </div>
+
+    <div class="example">
+      <h3>Live Preview</h3>
+      <p id="exampleText">This text will scale responsively</p>
+    </div>
+  </main>
+
+  <footer>
+    <p>Made with 💙 by Safeer Kilinadan</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
