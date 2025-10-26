@@ -29,8 +29,9 @@ Easily calculate fluid font sizes between any two viewport ranges — with live 
 
 
 ```
-📸 Screenshot: ![alt text](image.png)
-```
+Here’s how the Clamp Function Generator looks:
+
+📸 ![Clamp Function Generator UI](./screenshots/ui-preview.png)
 
 ---
 
