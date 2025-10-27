@@ -8,7 +8,9 @@ Easily calculate fluid font sizes between any two viewport ranges — with live 
 
 ### 🚀 Live Demo
 
-👉 **[View on GitHub Pages](https://safeerkilinadan.github.io/css-clamp-generator/)**
+👉 <a href="https://safeerkilinadan.github.io/css-clamp-generator/" target="_blank" rel="noopener noreferrer">
+  <strong>View on GitHub Pages</strong>
+</a>
 
 ---
 
@@ -114,7 +116,10 @@ Both `px` and `rem` outputs represent the *same scaling behavior*, ensuring visu
 
 ### ❤️ Credits
 
-Created and designed by **[Safeer Kilinadan](https://github.com/safeerkilinadan)**
+Created and designed by 
+<a href="https://github.com/safeerkilinadan" target="_blank" rel="noopener noreferrer">
+  Safeer Kilinadan
+</a>
 Made with 💙 for frontend developers who love clean, responsive typography.
 
 ---
