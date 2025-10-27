@@ -192,3 +192,14 @@ footer {
   text-align: center;
 }
 
+footer a {
+  color: #64ffda; /* soft teal accent */
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s ease, text-shadow 0.2s ease;
+}
+
+footer a:hover {
+  color: #80cbc4; /* lighter teal on hover */
+  text-shadow: 0 0 6px rgba(100, 255, 218, 0.6);
+}
